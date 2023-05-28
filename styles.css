@@ -1,0 +1,34 @@
+#powered {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#powered > a {
+    color: #1C9CEA;
+}
+#location {
+    width: 99%;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.text-fff {
+  color: #fff;
+}
+.btnPos {
+    border: solid 2px #fff;
+    box-shadow: 2px 2px #1C9CEA;
+}
+.btnPos:hover {
+    color: #1C9CEA;
+    border: solid 1px #1C9CEA;
+    box-shadow: 4px 4px #1C9CEA;
+}
+#nextDay-6 {
+  display: none;
+}
+
+.day-0, .day-1, .day-2, .day-3, .day-4, .day-5  {
+  display: none;
+}
