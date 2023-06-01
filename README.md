@@ -37,6 +37,6 @@ The getWeatherInPositionGps function is assigned to the window object to make it
 Finally, the getWeatherInPositionIp function is called to get the weather data based on the approximate location obtained from the IP address.
 
 ## Screenshots
-![Approximate](https://raw.githubusercontent.com/Esleiter/Clima-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/approximate.jpeg)
-![Alert](https://raw.githubusercontent.com/Esleiter/Clima-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/alert.jpeg)
-![Exact](https://raw.githubusercontent.com/Esleiter/Clima-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/exact.jpeg)
+![Approximate](https://raw.githubusercontent.com/Esleiter/Weather-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/approximate.jpeg)
+![Alert](https://raw.githubusercontent.com/Esleiter/Weather-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/alert.jpeg)
+![Exact](https://raw.githubusercontent.com/Esleiter/Weather-vanillaJs/codespace-esleiter-probable-parakeet-p5gjj9655cq5v/img/screenShot/exact.jpeg)
