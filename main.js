@@ -44,7 +44,7 @@ const getClimaApi = async (posi) => {
                ${new Date(e.startTime).toLocaleDateString('en', { weekday: 'long', day:'numeric', month:'long'})}
                </br>
                <span class="text-6xl text-fff">${e.values.temperature}</span>°C
-               </br></br>
+               </br></br></br>
                <span class="text-8xl">${codeWeather[e.values.weatherCode][0]}</span>
                </br>
                ${codeWeather[e.values.weatherCode][1]}
