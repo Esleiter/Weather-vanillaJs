@@ -14,10 +14,10 @@
     left: 10px;
 }
 .text-fff {
-  color: #fff;
+  color: hsl(var(--pc));
 }
 .btnPos {
-    border: solid 2px #fff;
+    border: solid 2px hsl(var(--pc));
     box-shadow: 2px 2px #1C9CEA;
 }
 .btnPos:hover {
