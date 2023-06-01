@@ -14,7 +14,7 @@ The project is developed with pure JavaScript, which gets weather data from the 
 
 Imports the apiKey from a config.js file.
 
-```js:
+```js
 const apiKey = 'Your-Api-Key';
 
 export default apiKey;
