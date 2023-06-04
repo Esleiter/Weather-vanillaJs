@@ -1,10 +1,10 @@
 const staticWeather = "Weather-page"
 const assets = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./main.js",
-  "./img/circle.ico",
+  "/",
+  "/index.html",
+  "/styles.css",
+  "/main.js",
+  "/img/circle.ico",
 ]
 
 self.addEventListener("install", installEvent => {
