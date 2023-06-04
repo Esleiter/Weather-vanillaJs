@@ -86,13 +86,10 @@ window.getWeatherInPositionGps = getWeatherInPositionGps;
 getWeatherInPositionIp();
 
 if ("serviceWorker" in navigator) {
-    window.addEventListener("load", async function() {
-      try {
-        const registration = await navigator.serviceWorker.register("/serviceWorker.js");
-        console.log("service worker registered");
-      } catch (err) {
-        console.log("service worker not registered", err);
-      }
-    });
-}
-  
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+    })
+  }
