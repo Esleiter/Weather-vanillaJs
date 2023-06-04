@@ -1,0 +1,16 @@
+{
+    "name": "Weather VanillaJs",
+    "short_name": "Weather",
+    "description" : "This project is a web application developed with pure JavaScript (Vanilla JS) that uses the Tomorrow.io API to display the weather forecast on a web page. It allows to obtain the current and forecast weather for approximate or exact locations through geolocation. Use emojis and descriptions to visually represent weather conditions. The application is dynamic and updates the data in real time.",
+    "start_url": "https://weather.esleiter.com/",
+    "lang" : "en-US",
+    "display": "standalone",
+    "icons": [{
+      "src": "./img/circle.ico",
+      "sizes": "32x32",
+      "type": "image/ico"
+    }],
+    "related_applications": [{
+      "platform": "web"
+    }]
+}
