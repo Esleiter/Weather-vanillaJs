@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel='manifest' href='./manifest.json'>
+    <link rel='manifest' href='manifest.json'>
     <link rel="shortcut icon" href="./img/circle.ico" type="image/x-icon">
     <meta name="robots"  content="index, follow"/>
     <meta name="description" content="This project is a web application developed with pure JavaScript (Vanilla JS) that uses the Tomorrow.io API to display the weather forecast on a web page. It allows to obtain the current and forecast weather for approximate or exact locations through geolocation. Use emojis and descriptions to visually represent weather conditions. The application is dynamic and updates the data in real time." />
@@ -20,13 +20,15 @@
 </head>
 <body>
   
-  <p id="powered" class="text-2xl">Powered By <a href="https://esleiter.com" target="_blank">esleiter.com</a></p>
+  <main>
+    <p id="powered" class="text-2xl">Powered By <a href="https://esleiter.com" target="_blank">esleiter.com</a></p>
   
-  <div id="location">
-    <span id="loc"></span>
-  </div>  
-  
-  <div id="weather" class="h-screen carousel carousel-vertical"></div>
+    <div id="location">
+      <span id="loc"></span>
+    </div>  
+    
+    <div id="weather" class="h-screen carousel carousel-vertical"></div>
+  </main>
   
   <script src="main.js" type="module"></script>
 
