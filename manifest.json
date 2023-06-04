@@ -9,8 +9,5 @@
       "src": "./img/circle.ico",
       "sizes": "32x32",
       "type": "image/ico"
-    }],
-    "related_applications": [{
-      "platform": "web"
     }]
 }
